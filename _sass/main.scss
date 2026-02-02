@@ -1,0 +1,15 @@
+@forward 'base';
+@forward 'components';
+@forward 'layout';
+@forward 'pages';
+
+.prompt-question {
+  @extend .prompt-warning;
+  border-left-color: #ff9800 !important;
+  background-color: rgba(255, 152, 0, 0.2) !important;
+
+  &::before {
+    content: "\f059" !important;
+    color: #ff9800 !important;
+  }
+}
