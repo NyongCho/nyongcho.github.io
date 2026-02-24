@@ -3,7 +3,7 @@ title: "[Python] 절대 족쇄 GIL을 넘어 빛의 속도로: Cython과 JIT 분
 date: 2026-02-01 00:34:00 +0900
 categories: [Tech, Python]
 tags: [python, optimization, gil, jit, numba]
-description: "파이썬의 속도 한계인 GIL의 원인과 이를 극복하기 위한 Cython, Numba(JIT) 기술을 알아봅니다."
+description: "파이썬의 속도 한계인 GIL의 원인과 이를 극복하기 위한 Cython, Numba(JIT) 기술을 알아본다."
 math: false
 ---
 

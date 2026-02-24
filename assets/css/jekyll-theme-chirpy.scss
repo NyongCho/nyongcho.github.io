@@ -18,3 +18,15 @@
         color: #ff9800 !important;
     }
 }
+
+/* 2분할 이미지 갤러리 (PC는 2칸, 모바일은 1칸) */
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: end; /* 캡션 높이 맞춤 */
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr; /* 폰에서는 한 줄로! */
+    }
+}
